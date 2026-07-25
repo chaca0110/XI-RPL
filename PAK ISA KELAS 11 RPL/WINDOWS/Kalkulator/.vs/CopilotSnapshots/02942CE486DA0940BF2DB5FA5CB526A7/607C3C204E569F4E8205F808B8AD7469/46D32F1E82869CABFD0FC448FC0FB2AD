@@ -1,0 +1,186 @@
+﻿namespace Kalkulator
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            lblTitle = new Label();
+            lblAngka1 = new Label();
+            txtAngka1 = new TextBox();
+            lblAngka2 = new Label();
+            txtAngka2 = new TextBox();
+            lblHasil = new Label();
+            lblAksi = new Label();
+            btnTambah = new Button();
+            btnKurang = new Button();
+            btnKali = new Button();
+            btnBagi = new Button();
+            SuspendLayout();
+            // 
+            // lblTitle
+            // 
+            lblTitle.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            lblTitle.Location = new Point(20, 20);
+            lblTitle.Name = "lblTitle";
+            lblTitle.Size = new Size(290, 30);
+            lblTitle.TabIndex = 0;
+            lblTitle.Text = "Calculator Sederhana";
+            lblTitle.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // lblAngka1
+            // 
+            lblAngka1.Location = new Point(20, 60);
+            lblAngka1.Name = "lblAngka1";
+            lblAngka1.Size = new Size(290, 20);
+            lblAngka1.TabIndex = 1;
+            lblAngka1.Text = "Angka 1";
+            // 
+            // txtAngka1
+            // 
+            txtAngka1.Location = new Point(20, 85);
+            txtAngka1.Name = "txtAngka1";
+            txtAngka1.Size = new Size(290, 23);
+            txtAngka1.TabIndex = 2;
+            txtAngka1.BorderStyle = BorderStyle.Fixed3D;
+            // 
+            // lblAngka2
+            // 
+            lblAngka2.Location = new Point(20, 115);
+            lblAngka2.Name = "lblAngka2";
+            lblAngka2.Size = new Size(290, 20);
+            lblAngka2.TabIndex = 3;
+            lblAngka2.Text = "Angka 2";
+            // 
+            // txtAngka2
+            // 
+            txtAngka2.Location = new Point(20, 140);
+            txtAngka2.Name = "txtAngka2";
+            txtAngka2.Size = new Size(290, 23);
+            txtAngka2.TabIndex = 4;
+            txtAngka2.BorderStyle = BorderStyle.Fixed3D;
+            // 
+            // lblHasil
+            // 
+            lblHasil.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblHasil.Location = new Point(20, 180);
+            lblHasil.Name = "lblHasil";
+            lblHasil.Size = new Size(290, 20);
+            lblHasil.TabIndex = 5;
+            lblHasil.Text = "Hasil :";
+            // 
+            // lblAksi
+            // 
+            lblAksi.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            lblAksi.Location = new Point(20, 220);
+            lblAksi.Name = "lblAksi";
+            lblAksi.Size = new Size(290, 30);
+            lblAksi.TabIndex = 6;
+            lblAksi.Text = "Aksi";
+            lblAksi.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // btnTambah
+            // 
+            btnTambah.Location = new Point(20, 260);
+            btnTambah.Name = "btnTambah";
+            btnTambah.Size = new Size(290, 35);
+            btnTambah.TabIndex = 7;
+            btnTambah.Text = "Tambah";
+            btnTambah.UseVisualStyleBackColor = true;
+            btnTambah.Click += BtnTambah_Click;
+            // 
+            // btnKurang
+            // 
+            btnKurang.Location = new Point(20, 305);
+            btnKurang.Name = "btnKurang";
+            btnKurang.Size = new Size(290, 35);
+            btnKurang.TabIndex = 8;
+            btnKurang.Text = "Kurang";
+            btnKurang.UseVisualStyleBackColor = true;
+            btnKurang.Click += BtnKurang_Click;
+            // 
+            // btnKali
+            // 
+            btnKali.Location = new Point(20, 350);
+            btnKali.Name = "btnKali";
+            btnKali.Size = new Size(290, 35);
+            btnKali.TabIndex = 9;
+            btnKali.Text = "Kali";
+            btnKali.UseVisualStyleBackColor = true;
+            btnKali.Click += BtnKali_Click;
+            // 
+            // btnBagi
+            // 
+            btnBagi.Location = new Point(20, 395);
+            btnBagi.Name = "btnBagi";
+            btnBagi.Size = new Size(290, 35);
+            btnBagi.TabIndex = 10;
+            btnBagi.Text = "Bagi";
+            btnBagi.UseVisualStyleBackColor = true;
+            btnBagi.Click += BtnBagi_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(330, 460);
+            Controls.Add(btnBagi);
+            Controls.Add(btnKali);
+            Controls.Add(btnKurang);
+            Controls.Add(btnTambah);
+            Controls.Add(lblAksi);
+            Controls.Add(lblHasil);
+            Controls.Add(txtAngka2);
+            Controls.Add(lblAngka2);
+            Controls.Add(txtAngka1);
+            Controls.Add(lblAngka1);
+            Controls.Add(lblTitle);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            MaximizeBox = false;
+            Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Form1";
+            BackColor = Color.FromArgb(240, 240, 240);
+            Load += Form1_Load;
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private Label lblTitle;
+        private Label lblAngka1;
+        private TextBox txtAngka1;
+        private Label lblAngka2;
+        private TextBox txtAngka2;
+        private Label lblHasil;
+        private Label lblAksi;
+        private Button btnTambah;
+        private Button btnKurang;
+        private Button btnKali;
+        private Button btnBagi;
+    }
+}

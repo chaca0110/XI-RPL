@@ -1,0 +1,14 @@
+C:\Users\urcha\Documents\perulangan\perulangan\bin\Debug\net10.0\perulangan.exe
+C:\Users\urcha\Documents\perulangan\perulangan\bin\Debug\net10.0\perulangan.deps.json
+C:\Users\urcha\Documents\perulangan\perulangan\bin\Debug\net10.0\perulangan.runtimeconfig.json
+C:\Users\urcha\Documents\perulangan\perulangan\bin\Debug\net10.0\perulangan.dll
+C:\Users\urcha\Documents\perulangan\perulangan\bin\Debug\net10.0\perulangan.pdb
+C:\Users\urcha\Documents\perulangan\perulangan\obj\Debug\net10.0\perulangan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\urcha\Documents\perulangan\perulangan\obj\Debug\net10.0\perulangan.AssemblyInfoInputs.cache
+C:\Users\urcha\Documents\perulangan\perulangan\obj\Debug\net10.0\perulangan.AssemblyInfo.cs
+C:\Users\urcha\Documents\perulangan\perulangan\obj\Debug\net10.0\perulangan.csproj.CoreCompileInputs.cache
+C:\Users\urcha\Documents\perulangan\perulangan\obj\Debug\net10.0\perulangan.dll
+C:\Users\urcha\Documents\perulangan\perulangan\obj\Debug\net10.0\refint\perulangan.dll
+C:\Users\urcha\Documents\perulangan\perulangan\obj\Debug\net10.0\perulangan.pdb
+C:\Users\urcha\Documents\perulangan\perulangan\obj\Debug\net10.0\perulangan.genruntimeconfig.cache
+C:\Users\urcha\Documents\perulangan\perulangan\obj\Debug\net10.0\ref\perulangan.dll

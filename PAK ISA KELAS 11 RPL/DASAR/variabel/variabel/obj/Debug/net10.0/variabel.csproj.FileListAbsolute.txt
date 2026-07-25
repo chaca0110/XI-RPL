@@ -1,0 +1,14 @@
+C:\Users\urcha\Documents\variabel\variabel\bin\Debug\net10.0\variabel.exe
+C:\Users\urcha\Documents\variabel\variabel\bin\Debug\net10.0\variabel.deps.json
+C:\Users\urcha\Documents\variabel\variabel\bin\Debug\net10.0\variabel.runtimeconfig.json
+C:\Users\urcha\Documents\variabel\variabel\bin\Debug\net10.0\variabel.dll
+C:\Users\urcha\Documents\variabel\variabel\bin\Debug\net10.0\variabel.pdb
+C:\Users\urcha\Documents\variabel\variabel\obj\Debug\net10.0\variabel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\urcha\Documents\variabel\variabel\obj\Debug\net10.0\variabel.AssemblyInfoInputs.cache
+C:\Users\urcha\Documents\variabel\variabel\obj\Debug\net10.0\variabel.AssemblyInfo.cs
+C:\Users\urcha\Documents\variabel\variabel\obj\Debug\net10.0\variabel.csproj.CoreCompileInputs.cache
+C:\Users\urcha\Documents\variabel\variabel\obj\Debug\net10.0\variabel.dll
+C:\Users\urcha\Documents\variabel\variabel\obj\Debug\net10.0\refint\variabel.dll
+C:\Users\urcha\Documents\variabel\variabel\obj\Debug\net10.0\variabel.pdb
+C:\Users\urcha\Documents\variabel\variabel\obj\Debug\net10.0\variabel.genruntimeconfig.cache
+C:\Users\urcha\Documents\variabel\variabel\obj\Debug\net10.0\ref\variabel.dll

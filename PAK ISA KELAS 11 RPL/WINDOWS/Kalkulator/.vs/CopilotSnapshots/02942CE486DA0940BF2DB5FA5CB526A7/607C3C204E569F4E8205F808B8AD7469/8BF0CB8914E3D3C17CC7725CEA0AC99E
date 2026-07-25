@@ -1,0 +1,69 @@
+﻿namespace Kalkulator
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private bool GetInputs(out double angka1, out double angka2)
+        {
+            angka1 = 0;
+            angka2 = 0;
+            if (!double.TryParse(txtAngka1.Text, out angka1))
+            {
+                MessageBox.Show("Masukkan Angka 1 yang valid.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+            if (!double.TryParse(txtAngka2.Text, out angka2))
+            {
+                MessageBox.Show("Masukkan Angka 2 yang valid.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+            return true;
+        }
+
+        private void BtnTambah_Click(object sender, EventArgs e)
+        {
+            if (GetInputs(out double a, out double b))
+            {
+                lblHasil.Text = $"Hasil : {a + b}";
+            }
+        }
+
+        private void BtnKurang_Click(object sender, EventArgs e)
+        {
+            if (GetInputs(out double a, out double b))
+            {
+                lblHasil.Text = $"Hasil : {a - b}";
+            }
+        }
+
+        private void BtnKali_Click(object sender, EventArgs e)
+        {
+            if (GetInputs(out double a, out double b))
+            {
+                lblHasil.Text = $"Hasil : {a * b}";
+            }
+        }
+
+        private void BtnBagi_Click(object sender, EventArgs e)
+        {
+            if (GetInputs(out double a, out double b))
+            {
+                if (b == 0)
+                {
+                    MessageBox.Show("Tidak dapat membagi dengan nol.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                lblHasil.Text = $"Hasil : {a / b}";
+            }
+        }
+    }
+}
