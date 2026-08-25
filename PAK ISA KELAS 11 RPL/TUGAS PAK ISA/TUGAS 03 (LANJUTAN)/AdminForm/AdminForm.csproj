@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AdminForm</RootNamespace>
+    <AssemblyName>AdminForm</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TiketSayaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TiketSayaForm.Designer.cs">
+      <DependentUpon>TiketSayaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PassengerCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PassengerCard.Designer.cs">
+      <DependentUpon>PassengerCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetailPenumpangForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailPenumpangForm.Designer.cs">
+      <DependentUpon>DetailPenumpangForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListPenerbanganForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListPenerbanganForm.Designer.cs">
+      <DependentUpon>ListPenerbanganForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerMainForm.Designer.cs">
+      <DependentUpon>CustomerMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterMaskapaiForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterMaskapaiForm.Designer.cs">
+      <DependentUpon>MasterMaskapaiForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterJadwalPenerbanganForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterJadwalPenerbanganForm.Designer.cs">
+      <DependentUpon>MasterJadwalPenerbanganForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MasterKodePromoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterKodePromoForm.Designer.cs">
+      <DependentUpon>MasterKodePromoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UbahStatusPenerbanganForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UbahStatusPenerbanganForm.Designer.cs">
+      <DependentUpon>UbahStatusPenerbanganForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardForm.Designer.cs">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterForm.Designer.cs">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="NavigationHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CustomerMainForm.resx">
+      <DependentUpon>CustomerMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailPenumpangForm.resx">
+      <DependentUpon>DetailPenumpangForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListPenerbanganForm.resx">
+      <DependentUpon>ListPenerbanganForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterMaskapaiForm.resx">
+      <DependentUpon>MasterMaskapaiForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterJadwalPenerbanganForm.resx">
+      <DependentUpon>MasterJadwalPenerbanganForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MasterKodePromoForm.resx">
+      <DependentUpon>MasterKodePromoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TiketSayaForm.resx">
+      <DependentUpon>TiketSayaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UbahStatusPenerbanganForm.resx">
+      <DependentUpon>UbahStatusPenerbanganForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardForm.resx">
+      <DependentUpon>DashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\*.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
