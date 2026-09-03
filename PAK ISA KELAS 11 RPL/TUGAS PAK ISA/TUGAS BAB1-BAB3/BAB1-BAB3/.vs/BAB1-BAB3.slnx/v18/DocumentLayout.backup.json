@@ -1,0 +1,301 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|c:\\users\\urcha\\documents\\tugas bab1-bab3\\bab1-bab3\\bab1-bab3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|solutionrelative:bab1-bab3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|c:\\users\\urcha\\documents\\tugas bab1-bab3\\bab1-bab3\\bab1-bab3\\bab14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|solutionrelative:bab1-bab3\\bab14.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|c:\\users\\urcha\\documents\\tugas bab1-bab3\\bab1-bab3\\bab1-bab3\\bab2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|solutionrelative:bab1-bab3\\bab2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|c:\\users\\urcha\\documents\\tugas bab1-bab3\\bab1-bab3\\bab1-bab3\\bab13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|solutionrelative:bab1-bab3\\bab13.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|c:\\users\\urcha\\documents\\tugas bab1-bab3\\bab1-bab3\\bab1-bab3\\bab12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|solutionrelative:bab1-bab3\\bab12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|c:\\users\\urcha\\documents\\tugas bab1-bab3\\bab1-bab3\\bab1-bab3\\bab11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|solutionrelative:bab1-bab3\\bab11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|c:\\users\\urcha\\documents\\tugas bab1-bab3\\bab1-bab3\\bab1-bab3\\bab10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|solutionrelative:bab1-bab3\\bab10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|c:\\users\\urcha\\documents\\tugas bab1-bab3\\bab1-bab3\\bab1-bab3\\bab8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|solutionrelative:bab1-bab3\\bab8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|c:\\users\\urcha\\documents\\tugas bab1-bab3\\bab1-bab3\\bab1-bab3\\bab1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|solutionrelative:bab1-bab3\\bab1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|c:\\users\\urcha\\documents\\tugas bab1-bab3\\bab1-bab3\\bab1-bab3\\bab3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|solutionrelative:bab1-bab3\\bab3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|c:\\users\\urcha\\documents\\tugas bab1-bab3\\bab1-bab3\\bab1-bab3\\bab4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|solutionrelative:bab1-bab3\\bab4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|c:\\users\\urcha\\documents\\tugas bab1-bab3\\bab1-bab3\\bab1-bab3\\bab6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|solutionrelative:bab1-bab3\\bab6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|c:\\users\\urcha\\documents\\tugas bab1-bab3\\bab1-bab3\\bab1-bab3\\bab9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|solutionrelative:bab1-bab3\\bab9.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|c:\\users\\urcha\\documents\\tugas bab1-bab3\\bab1-bab3\\bab1-bab3\\bab7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|solutionrelative:bab1-bab3\\bab7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|c:\\users\\urcha\\documents\\tugas bab1-bab3\\bab1-bab3\\bab1-bab3\\bab5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|solutionrelative:bab1-bab3\\bab5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|c:\\users\\urcha\\documents\\tugas bab1-bab3\\bab1-bab3\\bab1-bab3\\bab1-bab3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0FEC8CE6-D29D-D070-41EE-503112554E8C}|BAB1-BAB3\\BAB1-BAB3.csproj|solutionrelative:bab1-bab3\\bab1-bab3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAAQVAAAAAAAAAADwvxUVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-09-03T10:08:46.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "bab10.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab10.cs",
+              "RelativeDocumentMoniker": "BAB1-BAB3\\bab10.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab10.cs",
+              "RelativeToolTip": "BAB1-BAB3\\bab10.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T02:16:36.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "bab2.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab2.cs",
+              "RelativeDocumentMoniker": "BAB1-BAB3\\bab2.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab2.cs",
+              "RelativeToolTip": "BAB1-BAB3\\bab2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T01:37:03.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "bab11.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab11.cs",
+              "RelativeDocumentMoniker": "BAB1-BAB3\\bab11.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab11.cs",
+              "RelativeToolTip": "BAB1-BAB3\\bab11.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA/wCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T02:17:18.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "bab12.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab12.cs",
+              "RelativeDocumentMoniker": "BAB1-BAB3\\bab12.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab12.cs",
+              "RelativeToolTip": "BAB1-BAB3\\bab12.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA/wCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T02:17:23.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "bab13.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab13.cs",
+              "RelativeDocumentMoniker": "BAB1-BAB3\\bab13.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab13.cs",
+              "RelativeToolTip": "BAB1-BAB3\\bab13.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T02:17:27.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "bab14.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab14.cs",
+              "RelativeDocumentMoniker": "BAB1-BAB3\\bab14.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab14.cs",
+              "RelativeToolTip": "BAB1-BAB3\\bab14.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowB4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T02:17:30.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\Program.cs",
+              "RelativeDocumentMoniker": "BAB1-BAB3\\Program.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\Program.cs",
+              "RelativeToolTip": "BAB1-BAB3\\Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAiwEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T01:29:12.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "bab8.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab8.cs",
+              "RelativeDocumentMoniker": "BAB1-BAB3\\bab8.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab8.cs",
+              "RelativeToolTip": "BAB1-BAB3\\bab8.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T02:03:45.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "bab6.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab6.cs",
+              "RelativeDocumentMoniker": "BAB1-BAB3\\bab6.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab6.cs",
+              "RelativeToolTip": "BAB1-BAB3\\bab6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T02:03:36.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "bab3.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab3.cs",
+              "RelativeDocumentMoniker": "BAB1-BAB3\\bab3.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab3.cs",
+              "RelativeToolTip": "BAB1-BAB3\\bab3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T03:08:28.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "bab1.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab1.cs",
+              "RelativeDocumentMoniker": "BAB1-BAB3\\bab1.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab1.cs",
+              "RelativeToolTip": "BAB1-BAB3\\bab1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T01:34:32.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "bab4.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab4.cs",
+              "RelativeDocumentMoniker": "BAB1-BAB3\\bab4.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab4.cs",
+              "RelativeToolTip": "BAB1-BAB3\\bab4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T03:08:33.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "bab9.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab9.cs",
+              "RelativeDocumentMoniker": "BAB1-BAB3\\bab9.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab9.cs",
+              "RelativeToolTip": "BAB1-BAB3\\bab9.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T02:03:48.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "bab7.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab7.cs",
+              "RelativeDocumentMoniker": "BAB1-BAB3\\bab7.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab7.cs",
+              "RelativeToolTip": "BAB1-BAB3\\bab7.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T03:08:42.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "bab5.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab5.cs",
+              "RelativeDocumentMoniker": "BAB1-BAB3\\bab5.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\bab5.cs",
+              "RelativeToolTip": "BAB1-BAB3\\bab5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-02T02:03:33.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BAB1-BAB3.csproj",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3.csproj",
+              "RelativeDocumentMoniker": "BAB1-BAB3\\BAB1-BAB3.csproj",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\TUGAS BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3\\BAB1-BAB3.csproj",
+              "RelativeToolTip": "BAB1-BAB3\\BAB1-BAB3.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-02T01:32:10.262Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

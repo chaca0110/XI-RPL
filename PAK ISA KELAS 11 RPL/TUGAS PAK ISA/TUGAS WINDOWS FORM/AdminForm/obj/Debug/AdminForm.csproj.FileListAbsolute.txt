@@ -1,0 +1,84 @@
+C:\Users\Haqii\source\repos\AdminForm\AdminForm\bin\Debug\logo.png
+C:\Users\Haqii\source\repos\AdminForm\AdminForm\bin\Debug\AdminForm.exe.config
+C:\Users\Haqii\source\repos\AdminForm\AdminForm\bin\Debug\AdminForm.exe
+C:\Users\Haqii\source\repos\AdminForm\AdminForm\bin\Debug\AdminForm.pdb
+C:\Users\Haqii\source\repos\AdminForm\AdminForm\obj\Debug\AdminForm.csproj.AssemblyReference.cache
+C:\Users\Haqii\source\repos\AdminForm\AdminForm\obj\Debug\AdminForm.DashboardForm.resources
+C:\Users\Haqii\source\repos\AdminForm\AdminForm\obj\Debug\AdminForm.LoginForm.resources
+C:\Users\Haqii\source\repos\AdminForm\AdminForm\obj\Debug\AdminForm.RegisterForm.resources
+C:\Users\Haqii\source\repos\AdminForm\AdminForm\obj\Debug\AdminForm.Properties.Resources.resources
+C:\Users\Haqii\source\repos\AdminForm\AdminForm\obj\Debug\AdminForm.csproj.GenerateResource.cache
+C:\Users\Haqii\source\repos\AdminForm\AdminForm\obj\Debug\AdminForm.csproj.CoreCompileInputs.cache
+C:\Users\Haqii\source\repos\AdminForm\AdminForm\obj\Debug\AdminForm.exe
+C:\Users\Haqii\source\repos\AdminForm\AdminForm\obj\Debug\AdminForm.pdb
+C:\Users\Haqii\source\repos\AdminForm\AdminForm\obj\Debug\AdminForm.MasterMaskapaiForm.resources
+C:\Users\Haqii\source\repos\AdminForm\AdminForm\obj\Debug\AdminForm.MasterJadwalPenerbanganForm.resources
+C:\Users\Haqii\source\repos\AdminForm\AdminForm\obj\Debug\AdminForm.MasterKodePromoForm.resources
+C:\Users\Haqii\source\repos\AdminForm\AdminForm\obj\Debug\AdminForm.UbahStatusPenerbanganForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\bin\Debug\AdminForm.exe.config
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\bin\Debug\AdminForm.exe
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\bin\Debug\AdminForm.pdb
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\obj\Debug\AdminForm.csproj.AssemblyReference.cache
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\obj\Debug\AdminForm.MasterMaskapaiForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\obj\Debug\AdminForm.MasterJadwalPenerbanganForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\obj\Debug\AdminForm.MasterKodePromoForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\obj\Debug\AdminForm.UbahStatusPenerbanganForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\obj\Debug\AdminForm.DashboardForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\obj\Debug\AdminForm.LoginForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\obj\Debug\AdminForm.RegisterForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\obj\Debug\AdminForm.Properties.Resources.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\obj\Debug\AdminForm.csproj.GenerateResource.cache
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\obj\Debug\AdminForm.csproj.CoreCompileInputs.cache
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\obj\Debug\AdminForm.exe
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\obj\Debug\AdminForm.pdb
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\bin\Debug\Assets\iconAPK.png
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\bin\Debug\Assets\iconGUNUNG.png
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\bin\Debug\Assets\jamAPK.png
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\bin\Debug\Assets\logoAPK.png
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\bin\Debug\Assets\orgAPK.png
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\bin\Debug\Assets\outAPK.png
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\bin\Debug\Assets\pswt2APK.png
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\bin\Debug\Assets\pswtAPK.png
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\bin\Debug\Assets\tglAPK.png
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\bin\Debug\Assets\tiketAPK.png
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\obj\Debug\AdminForm.DetailPenumpangForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\obj\Debug\AdminForm.CustomerMainForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\obj\Debug\AdminForm.ListPenerbanganForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS 03\AdminForm\obj\Debug\AdminForm.TiketSayaForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\obj\Debug\AdminForm.csproj.AssemblyReference.cache
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\obj\Debug\ContohSoal1.CustomerMainForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\obj\Debug\ContohSoal1.BandaraForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\obj\Debug\ContohSoal1.DetailPenumpangForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\obj\Debug\ContohSoal1.PenumpangControl.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\obj\Debug\ContohSoal1.UbahStatusPenerbanganForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\obj\Debug\ContohSoal1.MasterKodePromoForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\obj\Debug\ContohSoal1.MasterJadwalPenerbanganForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\obj\Debug\ContohSoal1.MasterMaskapaiForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\obj\Debug\ContohSoal1.DashboardForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\obj\Debug\ContohSoal1.Form2Register.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\obj\Debug\ContohSoal1.Form1Login.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\obj\Debug\ContohSoal1.ListPenerbanganForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\obj\Debug\ContohSoal1.TiketSayaForm.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\obj\Debug\AdminForm.Properties.Resources.resources
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\obj\Debug\AdminForm.csproj.GenerateResource.cache
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\obj\Debug\AdminForm.csproj.CoreCompileInputs.cache
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\obj\Debug\AdminForm.exe
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\obj\Debug\AdminForm.pdb
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\bin\Debug\Assets\iconAPK.png
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\bin\Debug\Assets\iconGUNUNG.png
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\bin\Debug\Assets\jamAPK.png
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\bin\Debug\Assets\logoAPK.png
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\bin\Debug\Assets\orgAPK.png
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\bin\Debug\Assets\outAPK.png
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\bin\Debug\Assets\pswt2APK.png
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\bin\Debug\Assets\pswtAPK.png
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\bin\Debug\Assets\tglAPK.png
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\bin\Debug\Assets\tiketAPK.png
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\bin\Debug\AdminForm.exe.config
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\bin\Debug\AdminForm.exe
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\bin\Debug\AdminForm.pdb
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\bin\Debug\EntityFramework.dll
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\bin\Debug\EntityFramework.xml
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\urcha\Documents\github\XI-RPL\PAK ISA KELAS 11 RPL\TUGAS PAK ISA\TUGAS WINDOWS FORM\AdminForm\obj\Debug\AdminForm.csproj.Up2Date

@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|c:\\users\\urcha\\documents\\github\\xi-rpl\\pak isa kelas 11 rpl\\tugas pak isa\\tugas windows form\\adminform\\bandaramodels.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|solutionrelative:adminform\\bandaramodels.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\adminform\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|solutionrelative:adminform\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\adminform\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|solutionrelative:adminform\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\adminform\\bandaraform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|solutionrelative:adminform\\bandaraform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\adminform\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|solutionrelative:adminform\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\adminform\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|solutionrelative:adminform\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\adminform\\listpenerbanganform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|solutionrelative:adminform\\listpenerbanganform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\adminform\\tiketsayaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|solutionrelative:adminform\\tiketsayaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\adminform\\detailpenumpangform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|solutionrelative:adminform\\detailpenumpangform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\adminform\\tiketsayaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|solutionrelative:adminform\\tiketsayaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\adminform\\listpenerbanganform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|solutionrelative:adminform\\listpenerbanganform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\adminform\\detailpenumpangform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|solutionrelative:adminform\\detailpenumpangform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\adminform\\customermainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|solutionrelative:adminform\\customermainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\adminform\\customermainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}|AdminForm\\AdminForm.csproj|solutionrelative:adminform\\customermainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BandaraModels.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\BandaraModels.edmx",
+              "RelativeDocumentMoniker": "AdminForm\\BandaraModels.edmx",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\BandaraModels.edmx [Diagram1]",
+              "RelativeToolTip": "AdminForm\\BandaraModels.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-09-01T05:45:30.622Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\App.config",
+              "RelativeDocumentMoniker": "AdminForm\\App.config",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\App.config",
+              "RelativeToolTip": "AdminForm\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-09-01T05:36:13.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\LoginForm.cs",
+              "RelativeDocumentMoniker": "AdminForm\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\LoginForm.cs",
+              "RelativeToolTip": "AdminForm\\LoginForm.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T06:08:14.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BandaraForm.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\BandaraForm.cs",
+              "RelativeDocumentMoniker": "AdminForm\\BandaraForm.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\BandaraForm.cs",
+              "RelativeToolTip": "AdminForm\\BandaraForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T06:07:59.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Session.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\Session.cs",
+              "RelativeDocumentMoniker": "AdminForm\\Session.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\Session.cs",
+              "RelativeToolTip": "AdminForm\\Session.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T06:06:57.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterForm.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "AdminForm\\RegisterForm.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\RegisterForm.cs",
+              "RelativeToolTip": "AdminForm\\RegisterForm.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAkwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T06:06:21.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TiketSayaForm.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\TiketSayaForm.cs",
+              "RelativeDocumentMoniker": "AdminForm\\TiketSayaForm.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\TiketSayaForm.cs",
+              "RelativeToolTip": "AdminForm\\TiketSayaForm.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAADwv0oAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T22:18:49.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DetailPenumpangForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\DetailPenumpangForm.cs",
+              "RelativeDocumentMoniker": "AdminForm\\DetailPenumpangForm.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\DetailPenumpangForm.cs [Design]",
+              "RelativeToolTip": "AdminForm\\DetailPenumpangForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T22:15:43.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DetailPenumpangForm.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\DetailPenumpangForm.cs",
+              "RelativeDocumentMoniker": "AdminForm\\DetailPenumpangForm.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\DetailPenumpangForm.cs",
+              "RelativeToolTip": "AdminForm\\DetailPenumpangForm.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAUwDAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T22:14:25.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ListPenerbanganForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\ListPenerbanganForm.cs",
+              "RelativeDocumentMoniker": "AdminForm\\ListPenerbanganForm.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\ListPenerbanganForm.cs [Design]",
+              "RelativeToolTip": "AdminForm\\ListPenerbanganForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T12:27:46.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ListPenerbanganForm.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\ListPenerbanganForm.cs",
+              "RelativeDocumentMoniker": "AdminForm\\ListPenerbanganForm.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\ListPenerbanganForm.cs",
+              "RelativeToolTip": "AdminForm\\ListPenerbanganForm.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwDMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T22:22:15.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerMainForm.cs",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\CustomerMainForm.cs",
+              "RelativeDocumentMoniker": "AdminForm\\CustomerMainForm.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\CustomerMainForm.cs",
+              "RelativeToolTip": "AdminForm\\CustomerMainForm.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAowJgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-30T21:41:59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerMainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\CustomerMainForm.cs",
+              "RelativeDocumentMoniker": "AdminForm\\CustomerMainForm.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\CustomerMainForm.cs [Design]",
+              "RelativeToolTip": "AdminForm\\CustomerMainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T12:27:46.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TiketSayaForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\TiketSayaForm.cs",
+              "RelativeDocumentMoniker": "AdminForm\\TiketSayaForm.cs",
+              "ToolTip": "C:\\Users\\urcha\\Documents\\github\\XI-RPL\\PAK ISA KELAS 11 RPL\\TUGAS PAK ISA\\TUGAS WINDOWS FORM\\AdminForm\\TiketSayaForm.cs [Design]",
+              "RelativeToolTip": "AdminForm\\TiketSayaForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-15T12:27:46.573Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

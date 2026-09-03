@@ -1,0 +1,877 @@
+Build started 05/08/2026 10:24:16.
+Logging verbosity is set to: Detailed.     0>Process = "C:\Program Files\dotnet\dotnet.exe"
+       MSBuild executable path = "C:\Program Files\dotnet\sdk\10.0.302\MSBuild.exe"
+       Command line arguments = "C:\Program Files\dotnet\sdk\10.0.302\MSBuild.exe -maxcpucount --verbosity:m -tlp:default=auto --property:NuGetInteractive=true --restoreProperty:NuGetInteractive=true --restoreProperty:EnableDefaultCompileItems=false --restoreProperty:EnableDefaultEmbeddedResourceItems=false --restoreProperty:EnableDefaultNoneItems=false --nologo AdminForm.slnx -fl -consoleloggerparameters:Summary -restore -distributedlogger:Microsoft.DotNet.Cli.Commands.MSBuild.MSBuildLogger,C:\Program Files\dotnet\sdk\10.0.302\dotnet.dll*Microsoft.DotNet.Cli.Commands.MSBuild.MSBuildForwardingLogger,C:\Program Files\dotnet\sdk\10.0.302\dotnet.dll"
+       Current directory = "C:\Users\Haqii\source\repos\AdminForm"
+       MSBuild version = "18.6.11+35b593beb"
+       Based on the Windows registry key LongPathsEnabled, the LongPaths feature is disabled.
+       Based on the Windows registry key VerifiedAndReputablePolicyState, SAC state = 0: turned off.
+       C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx.metaproj : message : Property 'MSBuildExtensionsPath' with value 'C:\Program Files\dotnet\sdk\10.0.302\' expanded from the environment.
+       Assembly loaded during Evaluation: System.Threading.Tasks.Parallel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.Threading.Tasks.Parallel.dll, MVID: 4aae5473-05cc-4aa4-a919-d63a6bb66547, AssemblyLoadContext: Default)
+       Assembly loaded during Evaluation: System.Runtime.Intrinsics, Version=10.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.Runtime.Intrinsics.dll, MVID: d5e2a57a-8c1f-4818-a3b5-7df99de42f9b, AssemblyLoadContext: Default)
+       The "NuGetInteractive" property is a global property, and cannot be modified.
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message : Property reassignment: $(_GenerateRestoreGraphProjectEntryInputProperties)="
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       ExcludeRestorePackageImports=true;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       _RestoreSolutionFileUsed=true;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       SolutionDir=C:\Users\Haqii\source\repos\AdminForm\;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       SolutionName=AdminForm;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       SolutionFileName=AdminForm.slnx;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       SolutionPath=C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       SolutionExt=.slnx;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :     " (previous value: "ExcludeRestorePackageImports=true") at C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets (125,5)
+       Assembly loaded during Evaluation: System.Numerics.Vectors, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.Numerics.Vectors.dll, MVID: 8a7faa07-f208-42da-8de9-8ccbe13e6cd3, AssemblyLoadContext: Default)
+       Assembly loaded during Evaluation: System.Threading.ThreadPool, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.Threading.ThreadPool.dll, MVID: 5d530180-2152-45c5-9fd7-6f44b8636f7c, AssemblyLoadContext: Default)
+       Overriding target "Restore" in project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx.metaproj" with target "Restore" from project "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets".
+       The target "_MTPBuild" listed in a BeforeTargets attribute at "C:\Program Files\dotnet\sdk\10.0.302\Current\SolutionFile\ImportAfter\Microsoft.NET.Sdk.Solution.targets (24,11)" does not exist in the project, and will be ignored.
+       The target "Store" listed in a BeforeTargets attribute at "C:\Program Files\dotnet\sdk\10.0.302\Current\SolutionFile\ImportAfter\Microsoft.NET.Sdk.Solution.targets (33,11)" does not exist in the project, and will be ignored.
+       The target "VSTest" listed in a BeforeTargets attribute at "C:\Program Files\dotnet\sdk\10.0.302\Current\SolutionFile\ImportAfter\Microsoft.NET.Sdk.Solution.targets (33,11)" does not exist in the project, and will be ignored.
+       The target "_MTPBuild" listed in a BeforeTargets attribute at "C:\Program Files\dotnet\sdk\10.0.302\Current\SolutionFile\ImportAfter\Microsoft.NET.Sdk.Solution.targets (33,11)" does not exist in the project, and will be ignored.
+       The target "_CheckForInvalidConfigurationAndPlatform" listed in a BeforeTargets attribute at "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets (705,11)" does not exist in the project, and will be ignored.
+     1>Project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" on node 1 (Restore target(s)).
+     1>Target "ValidateSolutionConfiguration" in file "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx.metaproj" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (entry point):
+     1>Using "Message" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Message"
+         Building solution configuration "Debug|Any CPU".
+       Done executing task "Message".
+     1>Done building target "ValidateSolutionConfiguration" in project "AdminForm.slnx".
+     1>Target "ValidateToolsVersions" in file "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx.metaproj" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (entry point):
+     1>Done building target "ValidateToolsVersions" in project "AdminForm.slnx".
+     1>Target "ValidateProjects" in file "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx.metaproj" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (entry point):
+     1>Done building target "ValidateProjects" in project "AdminForm.slnx".
+     1>Target "_LoadRestoreGraphEntryPoints" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (target "_FilterRestoreGraphProjectInputItems" depends on it):
+       Assembly loaded during TaskRun: NuGet.Build.Tasks, Version=7.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll, MVID: 7aa4e34d-a386-4e4e-8563-f305d4e5692d, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll)
+       Assembly loaded during TaskRun: System.Reflection.Metadata, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.10\System.Reflection.Metadata.dll, MVID: ef1403e6-bb3c-4941-bb0c-0d714056a836, AssemblyLoadContext: Default)
+       Assembly loaded during TaskRun: NuGet.Common, Version=7.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\10.0.302\NuGet.Common.dll, MVID: 1834f060-ca6f-4d84-9849-933ab93b9af3, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll)
+       Assembly loaded during TaskRun: NuGet.Commands, Version=7.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\10.0.302\NuGet.Commands.dll, MVID: c6c276ac-531f-4950-b440-4a2ebdb9467e, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll)
+       Assembly loaded during TaskRun: NuGet.ProjectModel, Version=7.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\10.0.302\NuGet.ProjectModel.dll, MVID: 8002dc57-0cd1-405a-b5ba-1c4004e904e2, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll)
+       Using "GetRestoreSolutionProjectsTask" task from assembly "C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll".
+       Task "GetRestoreSolutionProjectsTask"
+       Done executing task "GetRestoreSolutionProjectsTask".
+     1>Done building target "_LoadRestoreGraphEntryPoints" in project "AdminForm.slnx".
+     1>Target "_FilterRestoreGraphProjectInputItems" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (target "_GenerateRestoreGraph" depends on it):
+       Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "RemoveDuplicates"
+       Done executing task "RemoveDuplicates".
+       Using "MSBuild" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "MSBuild"
+         Global Properties:
+           ExcludeRestorePackageImports=true
+           _RestoreSolutionFileUsed=true
+           SolutionDir=C:\Users\Haqii\source\repos\AdminForm\
+           SolutionName=AdminForm
+           SolutionFileName=AdminForm.slnx
+           SolutionPath=C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx
+           SolutionExt=.slnx
+         Additional Properties for project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj":
+           Configuration=Debug
+           Platform=AnyCPU
+     0>C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj(3,92): message : Property 'MSBuildExtensionsPath' with value 'C:\Program Files\dotnet\sdk\10.0.302\' expanded from the environment.
+       C:\Program Files\dotnet\sdk\10.0.302\Current\Microsoft.Common.props(60,5): message : Property reassignment: $(MSBuildProjectExtensionsPath)="C:\Users\Haqii\source\repos\AdminForm\AdminForm\obj\" (previous value: "obj\") at C:\Program Files\dotnet\sdk\10.0.302\Current\Microsoft.Common.props (60,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Current\Microsoft.Common.props(84,119): message : Property 'MSBuildUserExtensionsPath' with value 'C:\Users\Haqii\AppData\Local\Microsoft\MSBuild' expanded from the environment.
+       The "Configuration" property is a global property, and cannot be modified.
+       The "Platform" property is a global property, and cannot be modified.
+       The "Configuration" property is a global property, and cannot be modified.
+       The "Platform" property is a global property, and cannot be modified.
+       C:\Program Files\dotnet\sdk\10.0.302\Roslyn\Microsoft.CSharp.Core.targets(213,5): message : Property reassignment: $(CommandLineArgsForDesignTimeEvaluation)="-langversion:7.3 -define:DEBUG;TRACE" (previous value: "-langversion:7.3") at C:\Program Files\dotnet\sdk\10.0.302\Roslyn\Microsoft.CSharp.Core.targets (213,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.props(117,5): message : Property reassignment: $(AvailablePlatforms)="Any CPU,x86,x64,ARM64" (previous value: "Any CPU,x86,x64") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.props (117,5)
+       The "Platform" property is a global property, and cannot be modified.
+       The "Configuration" property is a global property, and cannot be modified.
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(175,5): message : Property reassignment: $(_DebugSymbolsProduced)="true" (previous value: "false") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (175,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(185,5): message : Property reassignment: $(_DocumentationFileProduced)="false" (previous value: "true") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (185,5)
+       The "SolutionName" property is a global property, and cannot be modified.
+       The "SolutionFileName" property is a global property, and cannot be modified.
+       The "SolutionPath" property is a global property, and cannot be modified.
+       The "SolutionDir" property is a global property, and cannot be modified.
+       The "SolutionExt" property is a global property, and cannot be modified.
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(393,5): message : Property reassignment: $(MSBuildCopyMarkerName)="AdminForm.csproj.Up2Date" (previous value: "AdminForm.csproj") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (393,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(527,5): message : Property reassignment: $(ProcessorArchitecture)="msil" (previous value: "AnyCPU") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (527,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(580,5): message : Property reassignment: $(DelaySign)="" (previous value: "false") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (580,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(649,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};" (previous value: "{CandidateAssemblyFiles}") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (649,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(650,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem}" (previous value: "{CandidateAssemblyFiles};") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (650,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(651,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem}") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (651,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(652,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory}") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (652,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(653,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (653,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(654,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (654,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(655,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders}") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (655,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(656,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC}") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (656,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(657,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName};bin\Debug\" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName}") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (657,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(2622,5): message : Property 'LOCALAPPDATA' with value 'C:\Users\Haqii\AppData\Local' expanded from the environment.
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(3950,5): message : Property reassignment: $(_SGenGenerateSerializationAssembliesConfig)="Auto" (previous value: "") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (3950,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(3951,5): message : Property reassignment: $(_SGenGenerateSerializationAssembliesConfig)="Off" (previous value: "Auto") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (3951,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(5162,5): message : Property reassignment: $(_TargetsThatPrepareProjectReferences)="
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(5162,5): message :       AssignProjectConfiguration;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(5162,5): message :       _SplitProjectReferencesByFileExistence
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(5162,5): message :     " (previous value: "_SplitProjectReferencesByFileExistence") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (5162,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(6975,5): message : Property 'MSBuildExtensionsPath32' with value 'C:\Program Files\dotnet\sdk\10.0.302' expanded from the environment.
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message : Property reassignment: $(ResolveReferencesDependsOn)="
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       BeforeResolveReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AssignProjectConfiguration;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveProjectReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       FindInvalidProjectReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveNativeReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveAssemblyReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirects;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirectsUpdateAppConfig;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveComReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AfterResolveReferences
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :     ;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ImplicitlyExpandDesignTimeFacades
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :     " (previous value: "
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       BeforeResolveReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AssignProjectConfiguration;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveProjectReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       FindInvalidProjectReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveNativeReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveAssemblyReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirects;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirectsUpdateAppConfig;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveComReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AfterResolveReferences
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :     ") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets (74,5)
+       The "_RestoreSolutionFileUsed" property is a global property, and cannot be modified.
+       The "NuGetInteractive" property is a global property, and cannot be modified.
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message : Property reassignment: $(_GenerateRestoreGraphProjectEntryInputProperties)="
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       ExcludeRestorePackageImports=true;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       _RestoreSolutionFileUsed=true;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       SolutionDir=C:\Users\Haqii\source\repos\AdminForm\;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       SolutionName=AdminForm;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       SolutionFileName=AdminForm.slnx;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       SolutionPath=C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       SolutionExt=.slnx;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :     " (previous value: "ExcludeRestorePackageImports=true") at C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets (125,5)
+       Overriding target "GetFrameworkPaths" in project "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" with target "GetFrameworkPaths" from project "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets".
+       The target "ResolveNuGetPackageAssets" listed in an AfterTargets attribute at "C:\Program Files\dotnet\sdk\10.0.302\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets (27,11)" does not exist in the project, and will be ignored.
+     1>Project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (1) is building "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (2) on node 1 (_IsProjectRestoreSupported target(s)).
+     2>Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="Current". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
+     2>Target "_IsProjectRestoreSupported" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (entry point):
+     2>Done building target "_IsProjectRestoreSupported" in project "AdminForm.csproj".
+     2>Done Building Project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (_IsProjectRestoreSupported target(s)).
+     1>Done executing task "MSBuild".
+       Using "WarnForInvalidProjectsTask" task from assembly "C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll".
+       Task "WarnForInvalidProjectsTask"
+       Done executing task "WarnForInvalidProjectsTask".
+     1>Done building target "_FilterRestoreGraphProjectInputItems" in project "AdminForm.slnx".
+       Target "_FilterRestoreGraphProjectInputItems" skipped. Previously built successfully.
+     1>Target "_GetAllRestoreProjectPathItems" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (target "_GenerateRestoreGraph" depends on it):
+       Using "NuGetMessageTask" task from assembly "C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll".
+       Task "NuGetMessageTask"
+         Determining projects to restore...
+       Done executing task "NuGetMessageTask".
+       Task "MSBuild"
+         Global Properties:
+           ExcludeRestorePackageImports=true
+           _RestoreSolutionFileUsed=true
+           SolutionDir=C:\Users\Haqii\source\repos\AdminForm\
+           SolutionName=AdminForm
+           SolutionFileName=AdminForm.slnx
+           SolutionPath=C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx
+           SolutionExt=.slnx
+         Additional Properties for project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj":
+           Configuration=Debug
+           Platform=AnyCPU
+     1>Project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (1) is building "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (2:2) on node 1 (_GenerateRestoreProjectPathWalk target(s)).
+   2:2>Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="Current". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
+   2:2>Target "_GenerateRestoreProjectPathItemsPerFramework" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_GenerateRestoreProjectPathItemsCurrentProject" depends on it):
+       Using "ConvertToAbsolutePath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "ConvertToAbsolutePath"
+       Done executing task "ConvertToAbsolutePath".
+   2:2>Done building target "_GenerateRestoreProjectPathItemsPerFramework" in project "AdminForm.csproj".
+   2:2>Target "_GenerateRestoreProjectPathItemsCurrentProject" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_GenerateRestoreProjectPathItems" depends on it):
+   2:2>Done building target "_GenerateRestoreProjectPathItemsCurrentProject" in project "AdminForm.csproj".
+   2:2>Target "_GenerateRestoreProjectPathItems" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_GenerateRestoreProjectPathWalk" depends on it):
+       Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "RemoveDuplicates"
+       Done executing task "RemoveDuplicates".
+   2:2>Done building target "_GenerateRestoreProjectPathItems" in project "AdminForm.csproj".
+   2:2>Target "_GenerateRestoreProjectPathWalk" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (entry point):
+       Using "MSBuild" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "MSBuild"
+       Done executing task "MSBuild".
+       Task "RemoveDuplicates"
+       Done executing task "RemoveDuplicates".
+   2:2>Done building target "_GenerateRestoreProjectPathWalk" in project "AdminForm.csproj".
+   2:2>Done Building Project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (_GenerateRestoreProjectPathWalk target(s)).
+     1>Done executing task "MSBuild".
+       Task "RemoveDuplicates"
+       Done executing task "RemoveDuplicates".
+       Task "MSBuild"
+         Global Properties:
+           ExcludeRestorePackageImports=true
+           _RestoreSolutionFileUsed=true
+           SolutionDir=C:\Users\Haqii\source\repos\AdminForm\
+           SolutionName=AdminForm
+           SolutionFileName=AdminForm.slnx
+           SolutionPath=C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx
+           SolutionExt=.slnx
+         Additional Properties for project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj":
+           Configuration=Debug
+           Platform=AnyCPU
+     1>Project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (1) is building "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (2:3) on node 1 (_IsProjectRestoreSupported target(s)).
+   2:3>Target "_IsProjectRestoreSupported" skipped. Previously built successfully.
+   2:3>Done Building Project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (_IsProjectRestoreSupported target(s)).
+     1>Done executing task "MSBuild".
+     1>Done building target "_GetAllRestoreProjectPathItems" in project "AdminForm.slnx".
+     1>Target "_GenerateRestoreGraph" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (target "Restore" depends on it):
+       Task "Message"
+         Generating dg file
+       Done executing task "Message".
+       Task "Message"
+         C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj
+       Done executing task "Message".
+       Task "MSBuild"
+         Global Properties:
+           ExcludeRestorePackageImports=true
+           _RestoreSolutionFileUsed=true
+           SolutionDir=C:\Users\Haqii\source\repos\AdminForm\
+           SolutionName=AdminForm
+           SolutionFileName=AdminForm.slnx
+           SolutionPath=C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx
+           SolutionExt=.slnx
+         Additional Properties for project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj":
+           Configuration=Debug
+           Platform=AnyCPU
+     1>Project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (1) is building "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (2:4) on node 1 (_GenerateRestoreGraphProjectEntry target(s)).
+   2:4>Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="Current". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
+   2:4>Target "CollectPackageReferences" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_GetRestoreProjectStyle" depends on it):
+       Using "CheckForDuplicateNuGetItemsTask" task from assembly "C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll".
+       Task "CheckForDuplicateNuGetItemsTask"
+       Done executing task "CheckForDuplicateNuGetItemsTask".
+   2:4>Done building target "CollectPackageReferences" in project "AdminForm.csproj".
+   2:4>Target "_GetRestoreProjectStyle" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_GenerateRestoreSpecs" depends on it):
+       Using "GetRestoreProjectStyleTask" task from assembly "C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll".
+       Task "GetRestoreProjectStyleTask"
+         Assembly loaded during TaskRun (NuGet.Build.Tasks.GetRestoreProjectStyleTask): NuGet.Configuration, Version=7.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\10.0.302\NuGet.Configuration.dll, MVID: f776aaf7-493c-4f93-aca3-2802294014aa, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll)
+       Done executing task "GetRestoreProjectStyleTask".
+   2:4>Done building target "_GetRestoreProjectStyle" in project "AdminForm.csproj".
+   2:4>Target "_GenerateRestoreSpecs" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_GenerateRestoreGraphProjectEntry" depends on it):
+       Using "Message" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Message"
+         Restore entry point C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj
+       Done executing task "Message".
+   2:4>Done building target "_GenerateRestoreSpecs" in project "AdminForm.csproj".
+   2:4>Target "_GenerateDotnetCliToolReferenceSpecs" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_GenerateRestoreGraphProjectEntry" depends on it):
+       Using "GetRestoreDotnetCliToolsTask" task from assembly "C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll".
+       Task "GetRestoreDotnetCliToolsTask"
+       Done executing task "GetRestoreDotnetCliToolsTask".
+   2:4>Done building target "_GenerateDotnetCliToolReferenceSpecs" in project "AdminForm.csproj".
+   2:4>Target "_GenerateRestoreGraphProjectEntry" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (entry point):
+   2:4>Done building target "_GenerateRestoreGraphProjectEntry" in project "AdminForm.csproj".
+   2:4>Done Building Project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (_GenerateRestoreGraphProjectEntry target(s)).
+     1>Done executing task "MSBuild".
+       Task "MSBuild"
+         Global Properties:
+           ExcludeRestorePackageImports=true
+           _RestoreSolutionFileUsed=true
+           SolutionDir=C:\Users\Haqii\source\repos\AdminForm\
+           SolutionName=AdminForm
+           SolutionFileName=AdminForm.slnx
+           SolutionPath=C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx
+           SolutionExt=.slnx
+         Additional Properties for project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj":
+           Configuration=Debug
+           Platform=AnyCPU
+     1>Project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (1) is building "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (2:5) on node 1 (_GenerateProjectRestoreGraph target(s)).
+   2:5>Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="Current". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
+       Target "_GetRestoreProjectStyle" skipped. Previously built successfully.
+       Target "_GetRestoreProjectStyle" skipped. Previously built successfully.
+       Target "_GetRestoreProjectStyle" skipped. Previously built successfully.
+   2:5>Target "_GetRestoreTargetFrameworkOverride" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_GetRestoreTargetFrameworksOutput" depends on it):
+   2:5>Done building target "_GetRestoreTargetFrameworkOverride" in project "AdminForm.csproj".
+   2:5>Target "_GetRestoreTargetFrameworksOutput" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_GenerateRestoreProjectSpec" depends on it):
+       Using "GetProjectTargetFrameworksTask" task from assembly "C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll".
+       Task "GetProjectTargetFrameworksTask"
+         Assembly loaded during TaskRun (NuGet.Build.Tasks.GetProjectTargetFrameworksTask): NuGet.Frameworks, Version=7.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\10.0.302\NuGet.Frameworks.dll, MVID: c8b2514d-8266-46e2-97cf-2b258b56265b, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll)
+       Done executing task "GetProjectTargetFrameworksTask".
+   2:5>Done building target "_GetRestoreTargetFrameworksOutput" in project "AdminForm.csproj".
+   2:5>Target "_GenerateRestoreProjectSpec" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_GenerateProjectRestoreGraph" depends on it):
+   2:5>Done building target "_GenerateRestoreProjectSpec" in project "AdminForm.csproj".
+       Target "_GetRestoreProjectStyle" skipped. Previously built successfully.
+       Target "CollectPackageReferences" skipped. Previously built successfully.
+   2:5>Target "CollectPackageDownloads" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_CollectRestoreInputs" depends on it):
+       Task "CheckForDuplicateNuGetItemsTask"
+       Done executing task "CheckForDuplicateNuGetItemsTask".
+   2:5>Done building target "CollectPackageDownloads" in project "AdminForm.csproj".
+   2:5>Target "CollectFrameworkReferences" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_CollectRestoreInputs" depends on it):
+   2:5>Done building target "CollectFrameworkReferences" in project "AdminForm.csproj".
+   2:5>Target "CollectCentralPackageVersions" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_CollectRestoreInputs" depends on it):
+       Task "CheckForDuplicateNuGetItemsTask"
+       Done executing task "CheckForDuplicateNuGetItemsTask".
+   2:5>Done building target "CollectCentralPackageVersions" in project "AdminForm.csproj".
+   2:5>Target "CollectNuGetAuditSuppressions" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_CollectRestoreInputs" depends on it):
+       Task "CheckForDuplicateNuGetItemsTask"
+       Done executing task "CheckForDuplicateNuGetItemsTask".
+   2:5>Done building target "CollectNuGetAuditSuppressions" in project "AdminForm.csproj".
+   2:5>Target "CollectPrunePackageReferences" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_CollectRestoreInputs" depends on it):
+       Task "CheckForDuplicateNuGetItemsTask"
+       Done executing task "CheckForDuplicateNuGetItemsTask".
+   2:5>Done building target "CollectPrunePackageReferences" in project "AdminForm.csproj".
+   2:5>Target "_CollectRestoreInputs" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_GenerateProjectRestoreGraphPerFramework" depends on it):
+   2:5>Done building target "_CollectRestoreInputs" in project "AdminForm.csproj".
+   2:5>Target "_GenerateProjectRestoreGraphPerFramework" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_GenerateProjectRestoreGraphCurrentProject" depends on it):
+       Using "GetRestoreProjectReferencesTask" task from assembly "C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll".
+       Task "GetRestoreProjectReferencesTask"
+       Done executing task "GetRestoreProjectReferencesTask".
+       Using "GetRestoreNuGetAuditSuppressionsTask" task from assembly "C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll".
+       Task "GetRestoreNuGetAuditSuppressionsTask"
+       Done executing task "GetRestoreNuGetAuditSuppressionsTask".
+       Using "GetRestorePrunePackageReferencesTask" task from assembly "C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll".
+       Task "GetRestorePrunePackageReferencesTask"
+       Done executing task "GetRestorePrunePackageReferencesTask".
+   2:5>Done building target "_GenerateProjectRestoreGraphPerFramework" in project "AdminForm.csproj".
+   2:5>Target "_GenerateProjectRestoreGraphCurrentProject" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_GenerateRestoreDependencies" depends on it):
+   2:5>Done building target "_GenerateProjectRestoreGraphCurrentProject" in project "AdminForm.csproj".
+   2:5>Target "_GenerateRestoreDependencies" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_GenerateProjectRestoreGraph" depends on it):
+   2:5>Done building target "_GenerateRestoreDependencies" in project "AdminForm.csproj".
+   2:5>Target "_GenerateProjectRestoreGraph" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (entry point):
+   2:5>Done building target "_GenerateProjectRestoreGraph" in project "AdminForm.csproj".
+   2:5>Done Building Project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (_GenerateProjectRestoreGraph target(s)).
+     1>Done executing task "MSBuild".
+     1>Done building target "_GenerateRestoreGraph" in project "AdminForm.slnx".
+     1>Target "Restore" in file "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (entry point):
+       Task "RemoveDuplicates"
+       Done executing task "RemoveDuplicates".
+       Using "RestoreTask" task from assembly "C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll".
+       Task "RestoreTask"
+         Assembly loaded during TaskRun (NuGet.Build.Tasks.RestoreTask): NuGet.Packaging, Version=7.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\10.0.302\NuGet.Packaging.dll, MVID: c5b3a909-8b21-4845-bdec-35329bbde5d5, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll)
+         Assembly loaded during TaskRun (NuGet.Build.Tasks.RestoreTask): NuGet.Versioning, Version=7.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\10.0.302\NuGet.Versioning.dll, MVID: 12f68cff-b14e-467d-abeb-e6815fa40bed, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll)
+         Assembly loaded during TaskRun (NuGet.Build.Tasks.RestoreTask): NuGet.LibraryModel, Version=7.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\10.0.302\NuGet.LibraryModel.dll, MVID: d15489dc-1b1d-40b8-87ad-8d265eb94dbd, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll)
+         Assembly loaded during TaskRun (NuGet.Build.Tasks.RestoreTask): NuGet.Protocol, Version=7.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\10.0.302\NuGet.Protocol.dll, MVID: 3a4ae892-2faa-4624-bd8e-63efa2e7074f, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll)
+         Assembly loaded during TaskRun (NuGet.Build.Tasks.RestoreTask): NuGet.Credentials, Version=7.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\10.0.302\NuGet.Credentials.dll, MVID: bc8d0130-50d6-4c02-ab11-9601e79aac05, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll)
+         X.509 certificate chain validation will use the default trust store selected by .NET for code signing.
+         X.509 certificate chain validation will use the default trust store selected by .NET for timestamping.
+         Assembly loaded during TaskRun (NuGet.Build.Tasks.RestoreTask): NuGet.DependencyResolver.Core, Version=7.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\dotnet\sdk\10.0.302\NuGet.DependencyResolver.Core.dll, MVID: 8797b76a-b359-4ded-998b-b7df1f8cf214, AssemblyLoadContext: MSBuild plugin C:\Program Files\dotnet\sdk\10.0.302\NuGet.Build.Tasks.dll)
+         Nothing to do. None of the projects specified contain packages to restore.
+       Done executing task "RestoreTask".
+     1>Done building target "Restore" in project "AdminForm.slnx".
+     1>Done Building Project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (Restore target(s)).
+     0>C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx.metaproj : message : Property 'MSBuildExtensionsPath' with value 'C:\Program Files\dotnet\sdk\10.0.302\' expanded from the environment.
+       The "NuGetInteractive" property is a global property, and cannot be modified.
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message : Property reassignment: $(_GenerateRestoreGraphProjectEntryInputProperties)="
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       ExcludeRestorePackageImports=true;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       _RestoreSolutionFileUsed=true;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       SolutionDir=C:\Users\Haqii\source\repos\AdminForm\;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       SolutionName=AdminForm;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       SolutionFileName=AdminForm.slnx;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       SolutionPath=C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :       SolutionExt=.slnx;
+       C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets(125,5): message :     " (previous value: "ExcludeRestorePackageImports=true") at C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets (125,5)
+       The target "_MTPBuild" listed in a BeforeTargets attribute at "C:\Program Files\dotnet\sdk\10.0.302\Current\SolutionFile\ImportAfter\Microsoft.NET.Sdk.Solution.targets (24,11)" does not exist in the project, and will be ignored.
+       The target "Store" listed in a BeforeTargets attribute at "C:\Program Files\dotnet\sdk\10.0.302\Current\SolutionFile\ImportAfter\Microsoft.NET.Sdk.Solution.targets (33,11)" does not exist in the project, and will be ignored.
+       The target "VSTest" listed in a BeforeTargets attribute at "C:\Program Files\dotnet\sdk\10.0.302\Current\SolutionFile\ImportAfter\Microsoft.NET.Sdk.Solution.targets (33,11)" does not exist in the project, and will be ignored.
+       The target "_MTPBuild" listed in a BeforeTargets attribute at "C:\Program Files\dotnet\sdk\10.0.302\Current\SolutionFile\ImportAfter\Microsoft.NET.Sdk.Solution.targets (33,11)" does not exist in the project, and will be ignored.
+       The target "_CheckForInvalidConfigurationAndPlatform" listed in a BeforeTargets attribute at "C:\Program Files\dotnet\sdk\10.0.302\NuGet.targets (705,11)" does not exist in the project, and will be ignored.
+   1:2>Project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" on node 1 (default targets).
+   1:2>Target "ValidateSolutionConfiguration" in file "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx.metaproj" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (entry point):
+   1:2>Using "Message" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Message"
+         Building solution configuration "Debug|Any CPU".
+       Done executing task "Message".
+   1:2>Done building target "ValidateSolutionConfiguration" in project "AdminForm.slnx".
+   1:2>Target "ValidateToolsVersions" in file "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx.metaproj" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (entry point):
+   1:2>Done building target "ValidateToolsVersions" in project "AdminForm.slnx".
+   1:2>Target "ValidateProjects" in file "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx.metaproj" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (entry point):
+   1:2>Done building target "ValidateProjects" in project "AdminForm.slnx".
+   1:2>Target "Build" in file "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx.metaproj" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (entry point):
+       Using "MSBuild" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "MSBuild"
+         Global Properties:
+           BuildingSolutionFile=true
+           CurrentSolutionConfigurationContents=<SolutionConfiguration>
+           <ProjectConfiguration Project="{C27603D9-B3E6-4973-9CF9-A156AE0D81A4}" AbsolutePath="C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+         </SolutionConfiguration>
+           SolutionDir=C:\Users\Haqii\source\repos\AdminForm\
+           SolutionExt=.slnx
+           SolutionFileName=AdminForm.slnx
+           SolutionName=AdminForm
+           SolutionPath=C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx
+         Additional Properties for project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj":
+           Configuration=Debug
+           Platform=AnyCPU
+     0>C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj(3,92): message : Property 'MSBuildExtensionsPath' with value 'C:\Program Files\dotnet\sdk\10.0.302\' expanded from the environment.
+       C:\Program Files\dotnet\sdk\10.0.302\Current\Microsoft.Common.props(60,5): message : Property reassignment: $(MSBuildProjectExtensionsPath)="C:\Users\Haqii\source\repos\AdminForm\AdminForm\obj\" (previous value: "obj\") at C:\Program Files\dotnet\sdk\10.0.302\Current\Microsoft.Common.props (60,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Current\Microsoft.Common.props(84,119): message : Property 'MSBuildUserExtensionsPath' with value 'C:\Users\Haqii\AppData\Local\Microsoft\MSBuild' expanded from the environment.
+       The "Configuration" property is a global property, and cannot be modified.
+       The "Platform" property is a global property, and cannot be modified.
+       The "Configuration" property is a global property, and cannot be modified.
+       The "Platform" property is a global property, and cannot be modified.
+       C:\Program Files\dotnet\sdk\10.0.302\Roslyn\Microsoft.CSharp.Core.targets(213,5): message : Property reassignment: $(CommandLineArgsForDesignTimeEvaluation)="-langversion:7.3 -define:DEBUG;TRACE" (previous value: "-langversion:7.3") at C:\Program Files\dotnet\sdk\10.0.302\Roslyn\Microsoft.CSharp.Core.targets (213,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.props(117,5): message : Property reassignment: $(AvailablePlatforms)="Any CPU,x86,x64,ARM64" (previous value: "Any CPU,x86,x64") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.props (117,5)
+       The "Platform" property is a global property, and cannot be modified.
+       The "Configuration" property is a global property, and cannot be modified.
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(175,5): message : Property reassignment: $(_DebugSymbolsProduced)="true" (previous value: "false") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (175,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(185,5): message : Property reassignment: $(_DocumentationFileProduced)="false" (previous value: "true") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (185,5)
+       The "SolutionName" property is a global property, and cannot be modified.
+       The "SolutionFileName" property is a global property, and cannot be modified.
+       The "SolutionPath" property is a global property, and cannot be modified.
+       The "SolutionDir" property is a global property, and cannot be modified.
+       The "SolutionExt" property is a global property, and cannot be modified.
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(393,5): message : Property reassignment: $(MSBuildCopyMarkerName)="AdminForm.csproj.Up2Date" (previous value: "AdminForm.csproj") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (393,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(527,5): message : Property reassignment: $(ProcessorArchitecture)="msil" (previous value: "AnyCPU") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (527,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(580,5): message : Property reassignment: $(DelaySign)="" (previous value: "false") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (580,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(649,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};" (previous value: "{CandidateAssemblyFiles}") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (649,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(650,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem}" (previous value: "{CandidateAssemblyFiles};") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (650,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(651,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem}") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (651,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(652,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory}") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (652,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(653,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (653,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(654,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (654,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(655,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders}") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (655,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(656,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName}" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC}") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (656,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(657,5): message : Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName};bin\Debug\" (previous value: "{CandidateAssemblyFiles};;{HintPathFromItem};{TargetFrameworkDirectory};;{Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx};{AssemblyFolders};{GAC};{RawFileName}") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (657,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(2622,5): message : Property 'LOCALAPPDATA' with value 'C:\Users\Haqii\AppData\Local' expanded from the environment.
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(3950,5): message : Property reassignment: $(_SGenGenerateSerializationAssembliesConfig)="Auto" (previous value: "") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (3950,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(3951,5): message : Property reassignment: $(_SGenGenerateSerializationAssembliesConfig)="Off" (previous value: "Auto") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (3951,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(5162,5): message : Property reassignment: $(_TargetsThatPrepareProjectReferences)="
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(5162,5): message :       AssignProjectConfiguration;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(5162,5): message :       _SplitProjectReferencesByFileExistence
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(5162,5): message :     " (previous value: "_SplitProjectReferencesByFileExistence") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (5162,5)
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(6975,5): message : Property 'MSBuildExtensionsPath32' with value 'C:\Program Files\dotnet\sdk\10.0.302' expanded from the environment.
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message : Property reassignment: $(ResolveReferencesDependsOn)="
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       BeforeResolveReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AssignProjectConfiguration;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveProjectReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       FindInvalidProjectReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveNativeReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveAssemblyReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirects;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirectsUpdateAppConfig;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveComReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AfterResolveReferences
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :     ;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ImplicitlyExpandDesignTimeFacades
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :     " (previous value: "
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       BeforeResolveReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AssignProjectConfiguration;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveProjectReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       FindInvalidProjectReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveNativeReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveAssemblyReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirects;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       GenerateBindingRedirectsUpdateAppConfig;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       ResolveComReferences;
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :       AfterResolveReferences
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets(74,5): message :     ") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets (74,5)
+       The "NuGetInteractive" property is a global property, and cannot be modified.
+       Overriding target "GetFrameworkPaths" in project "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" with target "GetFrameworkPaths" from project "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets".
+       The target "ResolveNuGetPackageAssets" listed in an AfterTargets attribute at "C:\Program Files\dotnet\sdk\10.0.302\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets (27,11)" does not exist in the project, and will be ignored.
+   1:2>Project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (1:2) is building "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (2:6) on node 1 (default targets).
+   2:6>Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="Current". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
+   2:6>Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "BeforeBuild" depends on it):
+       Task "Message"
+         Configuration=Debug
+       Done executing task "Message".
+       Task "Message"
+         Platform=AnyCPU
+       Done executing task "Message".
+   2:6>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "AdminForm.csproj".
+   2:6>Target "BeforeBuild" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "Build" depends on it):
+   2:6>Done building target "BeforeBuild" in project "AdminForm.csproj".
+   2:6>Target "BuildOnlySettings" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "CoreBuild" depends on it):
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(1168,7): message : Property reassignment: $(BuildingProject)="true" (previous value: "false") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (1168,7) [C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj]
+   2:6>Done building target "BuildOnlySettings" in project "AdminForm.csproj".
+   2:6>Target "GetFrameworkPaths" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "PrepareForBuild" depends on it):
+   2:6>Done building target "GetFrameworkPaths" in project "AdminForm.csproj".
+       Target "GetFrameworkPaths" skipped. Previously built successfully.
+   2:6>Target "GetReferenceAssemblyPaths" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "PrepareForBuild" depends on it):
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(1255,7): message : Property reassignment: $(TargetFrameworkDirectory)="" (previous value: "v4.0.30319") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (1255,7) [C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj]
+       Using "GetReferenceAssemblyPaths" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "GetReferenceAssemblyPaths"
+       Done executing task "GetReferenceAssemblyPaths".
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(1272,7): message : Property reassignment: $(TargetFrameworkDirectory)="C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\;;" (previous value: "v4.0.30319") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (1272,7) [C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj]
+       C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets(1293,7): message : Property reassignment: $(TargetFrameworkDirectory)="C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\;;;C:\Program Files %28x86%29\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\" (previous value: "v4.0.30319") at C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets (1293,7) [C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj]
+   2:6>Done building target "GetReferenceAssemblyPaths" in project "AdminForm.csproj".
+   2:6>Target "PrepareForBuild" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "CoreBuild" depends on it):
+       Using "FindAppConfigFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "FindAppConfigFile"
+         Found "App.config".
+       Done executing task "FindAppConfigFile".
+       Using "MakeDir" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "MakeDir"
+       Done executing task "MakeDir".
+   2:6>Done building target "PrepareForBuild" in project "AdminForm.csproj".
+   2:6>Target "BeforeResolveReferences" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "ResolveReferences" depends on it):
+   2:6>Done building target "BeforeResolveReferences" in project "AdminForm.csproj".
+   2:6>Target "IgnoreJavaScriptOutputAssembly" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "AssignProjectConfiguration" depends on it):
+   2:6>Done building target "IgnoreJavaScriptOutputAssembly" in project "AdminForm.csproj".
+   2:6>Target "AssignProjectConfiguration" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "ResolveReferences" depends on it):
+       Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignProjectConfiguration"
+       Done executing task "AssignProjectConfiguration".
+   2:6>Done building target "AssignProjectConfiguration" in project "AdminForm.csproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+   2:6>Target "_SplitProjectReferencesByFileExistence" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "PrepareProjectReferences" depends on it):
+   2:6>Done building target "_SplitProjectReferencesByFileExistence" in project "AdminForm.csproj".
+   2:6>Target "_AddOutputPathToGlobalPropertiesToRemove" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_GetProjectReferenceTargetFrameworkProperties" depends on it):
+   2:6>Done building target "_AddOutputPathToGlobalPropertiesToRemove" in project "AdminForm.csproj".
+   2:6>Target "_GetProjectReferenceTargetFrameworkProperties" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "PrepareProjectReferences" depends on it):
+       Task "MSBuild"
+       Done executing task "MSBuild".
+       Using "SetRidAgnosticValueForProjects" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "SetRidAgnosticValueForProjects"
+       Done executing task "SetRidAgnosticValueForProjects".
+   2:6>Done building target "_GetProjectReferenceTargetFrameworkProperties" in project "AdminForm.csproj".
+   2:6>Target "PrepareProjectReferences" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "ResolveProjectReferences" depends on it):
+   2:6>Done building target "PrepareProjectReferences" in project "AdminForm.csproj".
+   2:6>Target "ResolveProjectReferences" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "ResolveReferences" depends on it):
+   2:6>Done building target "ResolveProjectReferences" in project "AdminForm.csproj".
+       Target "ResolveProjectReferences" skipped. Previously built successfully.
+       Target "GetFrameworkPaths" skipped. Previously built successfully.
+       Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+       Target "PrepareForBuild" skipped. Previously built successfully.
+   2:6>Target "ResolveSDKReferences" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "ResolveAssemblyReferences" depends on it):
+   2:6>Done building target "ResolveSDKReferences" in project "AdminForm.csproj".
+       Target "ResolveSDKReferences" skipped. Previously built successfully.
+   2:6>Target "ExpandSDKReferences" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "ResolveAssemblyReferences" depends on it):
+   2:6>Done building target "ExpandSDKReferences" in project "AdminForm.csproj".
+   2:6>Target "ImplicitlyExpandNETStandardFacades" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.NETFramework.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "ResolveAssemblyReferences" depends on it):
+   2:6>Done building target "ImplicitlyExpandNETStandardFacades" in project "AdminForm.csproj".
+       Target "GetFrameworkPaths" skipped. Previously built successfully.
+       Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+   2:6>Target "_HandlePackageFileConflicts" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "ResolveAssemblyReferences" depends on it):
+       Using "ResolvePackageFileConflicts" task from assembly "C:\Program Files\dotnet\sdk\10.0.302\Microsoft\Microsoft.NET.Build.Extensions\\tools\net10.0\Microsoft.NET.Build.Extensions.Tasks.dll".
+       Task "ResolvePackageFileConflicts"
+       Done executing task "ResolvePackageFileConflicts".
+   2:6>Done building target "_HandlePackageFileConflicts" in project "AdminForm.csproj".
+   2:6>Target "ResolveAssemblyReferences" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "ResolveReferences" depends on it):
+       Using "ResolveAssemblyReference" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "ResolveAssemblyReference"
+         TargetFrameworkMoniker:
+             .NETFramework,Version=v4.7.2
+         TargetFrameworkMonikerDisplayName:
+             .NET Framework 4.7.2
+         TargetedRuntimeVersion:
+             v
+         Assemblies:
+             System
+             System.Xml.Linq
+             System.Data.DataSetExtensions
+             Microsoft.CSharp
+             System.Data
+             System.Deployment
+             System.Drawing
+             System.Net.Http
+             System.Windows.Forms
+             System.Xml
+             System.Core
+         AssemblyFiles:
+             C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll
+         CandidateAssemblyFiles:
+         TargetFrameworkDirectories:
+             C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\,C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Facades\
+         NonCultureResourceDirectories:
+             
+         InstalledAssemblyTables:
+         IgnoreInstalledAssemblyTable:
+             False
+         SearchPaths:
+             {CandidateAssemblyFiles}
+             {HintPathFromItem}
+             {TargetFrameworkDirectory}
+             {Registry:Software\Microsoft\.NETFramework,v4.7.2,AssemblyFoldersEx}
+             {AssemblyFolders}
+             {GAC}
+             {RawFileName}
+             bin\Debug\
+         AllowedAssemblyExtensions:
+             .winmd
+             .dll
+             .exe
+         AllowedRelatedFileExtensions:
+             .pdb
+             .xml
+             .pri
+             .dll.config
+             .exe.config
+         AppConfigFile:
+             App.config
+         AutoUnify:
+             True
+         EnableCustomCulture:
+             False
+         EnableCustomCulture:
+             False
+         CopyLocalDependenciesWhenParentReferenceInGac:
+             True
+         FindDependencies:
+             True
+         TargetProcessorArchitecture:
+             msil
+         StateFile:
+             obj\Debug\AdminForm.csproj.AssemblyReference.cache
+         InstalledAssemblySubsetTables:
+         IgnoreInstalledAssemblySubsetTable:
+             False
+         TargetFrameworkSubsets:
+         FullTargetFrameworkSubsetNames:
+             Full
+         ProfileName:
+             
+         FullFrameworkFolders:
+             C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\
+         LatestTargetFrameworkDirectories:
+         ProfileTablesLocation:
+         Primary reference "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll".
+             Reference found at search path location "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll".
+             This reference is not "CopyLocal" because it's in a Frameworks directory.
+         Primary reference "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.Linq.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.Linq.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.DataSetExtensions.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.DataSetExtensions.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.CSharp.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.CSharp.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "System.Deployment, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Deployment.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Deployment.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Drawing.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Drawing.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Net.Http.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Net.Http.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+         Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+             Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Core.dll".
+             Reference found at search path location "{TargetFrameworkDirectory}".
+                 For SearchPath "{TargetFrameworkDirectory}".
+                 Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Core.winmd", but it didn't exist.
+             This reference is not "CopyLocal" because it's a prerequisite file.
+       Done executing task "ResolveAssemblyReference".
+   2:6>Done building target "ResolveAssemblyReferences" in project "AdminForm.csproj".
+       Target "ResolveAssemblyReferences" skipped. Previously built successfully.
+   2:6>Target "_RemoveZipFileSuggestedRedirect" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.NETFramework.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "GenerateBindingRedirects" depends on it):
+   2:6>Done building target "_RemoveZipFileSuggestedRedirect" in project "AdminForm.csproj".
+   2:6>Target "GenerateBindingRedirectsUpdateAppConfig" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "ResolveReferences" depends on it):
+   2:6>Done building target "GenerateBindingRedirectsUpdateAppConfig" in project "AdminForm.csproj".
+   2:6>Target "AfterResolveReferences" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "ResolveReferences" depends on it):
+   2:6>Done building target "AfterResolveReferences" in project "AdminForm.csproj".
+       Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+   2:6>Target "ImplicitlyExpandDesignTimeFacades" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.NETFramework.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "ResolveReferences" depends on it):
+   2:6>Done building target "ImplicitlyExpandDesignTimeFacades" in project "AdminForm.csproj".
+   2:6>Target "ResolveReferences" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "CoreBuild" depends on it):
+   2:6>Done building target "ResolveReferences" in project "AdminForm.csproj".
+   2:6>Target "CopyAdditionalFiles" in file "C:\Program Files\dotnet\sdk\10.0.302\Roslyn\Microsoft.Managed.Core.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "AssignTargetPaths" depends on it):
+   2:6>Done building target "CopyAdditionalFiles" in project "AdminForm.csproj".
+   2:6>Target "AssignTargetPaths" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "PrepareResourceNames" depends on it):
+       Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+   2:6>Done building target "AssignTargetPaths" in project "AdminForm.csproj".
+       Target "AssignTargetPaths" skipped. Previously built successfully.
+   2:6>Target "SplitResourcesByCulture" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "PrepareResourceNames" depends on it):
+       Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignCulture"
+         Culture of "" was assigned to file "MasterMaskapaiForm.resx".
+         Culture of "" was assigned to file "DashboardForm.resx".
+         Culture of "" was assigned to file "LoginForm.resx".
+         Culture of "" was assigned to file "RegisterForm.resx".
+         Culture of "" was assigned to file "Properties\Resources.resx".
+       Done executing task "AssignCulture".
+   2:6>Done building target "SplitResourcesByCulture" in project "AdminForm.csproj".
+   2:6>Target "CreateManifestResourceNames" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.CSharp.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "PrepareResourceNames" depends on it):
+       Using "CreateCSharpManifestResourceName" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "CreateCSharpManifestResourceName"
+         Root namespace is 'AdminForm'.
+         Resource file 'MasterMaskapaiForm.resx' depends on 'MasterMaskapaiForm.cs'.
+         Resource file 'MasterMaskapaiForm.resx' gets manifest resource name 'AdminForm.MasterMaskapaiForm'.
+         Resource file 'DashboardForm.resx' depends on 'DashboardForm.cs'.
+         Resource file 'DashboardForm.resx' gets manifest resource name 'AdminForm.DashboardForm'.
+         Resource file 'LoginForm.resx' depends on 'LoginForm.cs'.
+         Resource file 'LoginForm.resx' gets manifest resource name 'AdminForm.LoginForm'.
+         Resource file 'RegisterForm.resx' depends on 'RegisterForm.cs'.
+         Resource file 'RegisterForm.resx' gets manifest resource name 'AdminForm.RegisterForm'.
+         Resource file 'Properties\Resources.resx' doesn't depend on any other file.
+         Resource file 'Properties\Resources.resx' gets manifest resource name 'AdminForm.Properties.Resources'.
+       Done executing task "CreateCSharpManifestResourceName".
+   2:6>Done building target "CreateManifestResourceNames" in project "AdminForm.csproj".
+   2:6>Target "CreateCustomManifestResourceNames" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "PrepareResourceNames" depends on it):
+   2:6>Done building target "CreateCustomManifestResourceNames" in project "AdminForm.csproj".
+   2:6>Target "PrepareResourceNames" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "PrepareResources" depends on it):
+   2:6>Done building target "PrepareResourceNames" in project "AdminForm.csproj".
+       Target "ResolveAssemblyReferences" skipped. Previously built successfully.
+       Target "SplitResourcesByCulture" skipped. Previously built successfully.
+   2:6>Target "BeforeResGen" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "ResGen" depends on it):
+   2:6>Done building target "BeforeResGen" in project "AdminForm.csproj".
+       Target "ResolveReferences" skipped. Previously built successfully.
+   2:6>Target "FindReferenceAssembliesForReferences" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "CoreResGen" depends on it):
+   2:6>Done building target "FindReferenceAssembliesForReferences" in project "AdminForm.csproj".
+   2:6>Target "CoreResGen" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "ResGen" depends on it):
+       Using "GenerateResource" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "GenerateResource"
+         Task assembly was loaded from 'C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Build.dll' while the desired location was 'C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Build.Tasks.Core.dll'.
+         Launching task "GenerateResource" from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" in an external task host with a runtime of "NET" and a process architecture of "x86".
+     0>Reusing node 1 (PID: 25808).
+   2:6>CoreResGen:
+         No resources are out of date with respect to their source files. Skipping resource generation.
+       Done executing task "GenerateResource".
+   2:6>Done building target "CoreResGen" in project "AdminForm.csproj".
+   2:6>Target "AfterResGen" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "ResGen" depends on it):
+   2:6>Done building target "AfterResGen" in project "AdminForm.csproj".
+   2:6>Target "ResGen" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "PrepareResources" depends on it):
+   2:6>Done building target "ResGen" in project "AdminForm.csproj".
+   2:6>Target "PrepareResources" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "CoreBuild" depends on it):
+   2:6>Done building target "PrepareResources" in project "AdminForm.csproj".
+       Target "ResolveReferences" skipped. Previously built successfully.
+   2:6>Target "_SetEmbeddedWin32ManifestProperties" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "SetWin32ManifestProperties" depends on it):
+       Using "GetFrameworkPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "GetFrameworkPath"
+       Done executing task "GetFrameworkPath".
+   2:6>Done building target "_SetEmbeddedWin32ManifestProperties" in project "AdminForm.csproj".
+   2:6>Target "SetWin32ManifestProperties" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "Compile" depends on it):
+   2:6>Done building target "SetWin32ManifestProperties" in project "AdminForm.csproj".
+       Target "FindReferenceAssembliesForReferences" skipped. Previously built successfully.
+   2:6>Target "_GenerateCompileInputs" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "Compile" depends on it):
+   2:6>Done building target "_GenerateCompileInputs" in project "AdminForm.csproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+   2:6>Target "GenerateMSBuildEditorConfigFileShouldRun" in file "C:\Program Files\dotnet\sdk\10.0.302\Roslyn\Microsoft.Managed.Core.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "GenerateMSBuildEditorConfigFile" depends on it):
+   2:6>Done building target "GenerateMSBuildEditorConfigFileShouldRun" in project "AdminForm.csproj".
+   2:6>Target "GenerateMSBuildEditorConfigFile" in file "C:\Program Files\dotnet\sdk\10.0.302\Roslyn\Microsoft.Managed.Core.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "BeforeCompile" depends on it):
+   2:6>Done building target "GenerateMSBuildEditorConfigFile" in project "AdminForm.csproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+   2:6>Target "_SetTargetFrameworkMonikerAttribute" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.CSharp.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "GenerateTargetFrameworkMonikerAttribute" depends on it):
+   2:6>Done building target "_SetTargetFrameworkMonikerAttribute" in project "AdminForm.csproj".
+   2:6>Target "GenerateTargetFrameworkMonikerAttribute" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "BeforeCompile" depends on it):
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       Input files: C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.targets
+       Output files: obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+   2:6>Done building target "GenerateTargetFrameworkMonikerAttribute" in project "AdminForm.csproj".
+   2:6>Target "BeforeCompile" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "Compile" depends on it):
+   2:6>Done building target "BeforeCompile" in project "AdminForm.csproj".
+       Target "ResolveAssemblyReferences" skipped. Previously built successfully.
+       Target "_GenerateCompileInputs" skipped. Previously built successfully.
+   2:6>Target "_GenerateCompileDependencyCache" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "Compile" depends on it):
+       Using "Hash" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Hash"
+       Done executing task "Hash".
+       Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "WriteLinesToFile"
+         Skipping write to file "obj\Debug\AdminForm.csproj.CoreCompileInputs.cache" because content would not change.
+       Done executing task "WriteLinesToFile".
+   2:6>Done building target "_GenerateCompileDependencyCache" in project "AdminForm.csproj".
+   2:6>Target "_BeforeVBCSCoreCompile" in file "C:\Program Files\dotnet\sdk\10.0.302\Roslyn\Microsoft.Managed.Core.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "CoreCompile" depends on it):
+   2:6>Done building target "_BeforeVBCSCoreCompile" in project "AdminForm.csproj".
+   2:6>Target "_ComputeSkipAnalyzers" in file "C:\Program Files\dotnet\sdk\10.0.302\Roslyn\Microsoft.Managed.Core.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "CoreCompile" depends on it):
+   2:6>Done building target "_ComputeSkipAnalyzers" in project "AdminForm.csproj".
+   2:6>Target "CoreCompile" in file "C:\Program Files\dotnet\sdk\10.0.302\Roslyn\Microsoft.CSharp.Core.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "Compile" depends on it):
+       Building target "CoreCompile" completely.
+       Input file "MasterMaskapaiForm.cs" is newer than output file "obj\Debug\AdminForm.exe".
+       Using "Csc" task from assembly "C:\Program Files\dotnet\sdk\10.0.302\Roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll".
+       Task "Csc"
+         Setting DOTNET_ROOT to 'C:\Program Files\dotnet'
+         Environment Variables passed to tool:
+           DOTNET_ROOT=C:\Program Files\dotnet
+         C:\Program Files\dotnet\sdk\10.0.302\Roslyn\bincore\csc.exe /noconfig /nowarn:1701,1702 /fullpaths /nostdlib+ /platform:anycpu32bitpreferred /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva+ /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.CSharp.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Deployment.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Net.Http.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.Linq.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\AdminForm.exe /subsystemversion:6.00 /resource:obj\Debug\AdminForm.MasterMaskapaiForm.resources /resource:obj\Debug\AdminForm.DashboardForm.resources /resource:obj\Debug\AdminForm.LoginForm.resources /resource:obj\Debug\AdminForm.RegisterForm.resources /resource:obj\Debug\AdminForm.Properties.Resources.resources /target:winexe /utf8output /deterministic+ /langversion:7.3 Form1.cs Form1.Designer.cs MasterMaskapaiForm.cs MasterMaskapaiForm.Designer.cs DashboardForm.cs DashboardForm.Designer.cs LoginForm.cs LoginForm.Designer.cs RegisterForm.cs RegisterForm.Designer.cs Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs "obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs"
+         Compilation request AdminForm, PathToTool=C:\Program Files\dotnet\sdk\10.0.302\Roslyn\bincore\csc.exe
+         CommandLine = ' /noconfig'
+         BuildResponseFile = '/nowarn:1701,1702 /fullpaths /nostdlib+ /platform:anycpu32bitpreferred /errorreport:prompt /warn:4 /define:DEBUG;TRACE /highentropyva+ /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\Microsoft.CSharp.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Core.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.DataSetExtensions.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Data.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Deployment.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Drawing.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Net.Http.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Windows.Forms.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.dll" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.Xml.Linq.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\AdminForm.exe /subsystemversion:6.00 /resource:obj\Debug\AdminForm.MasterMaskapaiForm.resources /resource:obj\Debug\AdminForm.DashboardForm.resources /resource:obj\Debug\AdminForm.LoginForm.resources /resource:obj\Debug\AdminForm.RegisterForm.resources /resource:obj\Debug\AdminForm.Properties.Resources.resources /target:winexe /utf8output /deterministic+ /langversion:7.3 Form1.cs Form1.Designer.cs MasterMaskapaiForm.cs MasterMaskapaiForm.Designer.cs DashboardForm.cs DashboardForm.Designer.cs LoginForm.cs LoginForm.Designer.cs RegisterForm.cs RegisterForm.Designer.cs Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs "obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs"'
+         Attempt to open named pipe 'McKSjD0gxhlBJ_L+nzfGQ0mCTn4kpuQwuPuCLujTv_k'
+         Attempt to connect named pipe 'McKSjD0gxhlBJ_L+nzfGQ0mCTn4kpuQwuPuCLujTv_k'
+         Named pipe 'McKSjD0gxhlBJ_L+nzfGQ0mCTn4kpuQwuPuCLujTv_k' connected
+         Begin writing request for AdminForm
+         End writing request for AdminForm
+         Begin reading response for AdminForm
+         End reading response for AdminForm
+         Microsoft (R) Visual C# Compiler version 5.6.0-2.26329.109 (35b593bebfcba58f8e78298cef14c2761f5d86c6)
+         Copyright (C) Microsoft Corporation. All rights reserved.
+   2:6>C:\Users\Haqii\source\repos\AdminForm\AdminForm\DashboardForm.cs(24,10): error CS1513: } expected [C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj]
+         CompilerServer: server - server processed compilation - AdminForm
+       Done executing task "Csc" -- FAILED.
+   2:6>Done building target "CoreCompile" in project "AdminForm.csproj" -- FAILED.
+   2:6>Target "_CheckForCompileOutputs" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_CleanGetCurrentAndPriorFileWrites" depends on it):
+   2:6>Done building target "_CheckForCompileOutputs" in project "AdminForm.csproj".
+   2:6>Target "_CleanGetCurrentAndPriorFileWrites" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "_CleanRecordFileWrites" depends on it):
+       Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "ReadLinesFromFile"
+       Done executing task "ReadLinesFromFile".
+       Task "ConvertToAbsolutePath"
+       Done executing task "ConvertToAbsolutePath".
+       Using "FindUnderPath" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "FindUnderPath"
+         Comparison path is "C:\Users\Haqii\source\repos\AdminForm\AdminForm".
+       Done executing task "FindUnderPath".
+       Task "FindUnderPath"
+         Comparison path is "bin\Debug\".
+       Done executing task "FindUnderPath".
+       Task "FindUnderPath"
+         Comparison path is "obj\Debug\".
+       Done executing task "FindUnderPath".
+       Task "RemoveDuplicates"
+       Done executing task "RemoveDuplicates".
+   2:6>Done building target "_CleanGetCurrentAndPriorFileWrites" in project "AdminForm.csproj".
+   2:6>Target "_CleanRecordFileWrites" in file "C:\Program Files\dotnet\sdk\10.0.302\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (target "CoreBuild" depends on it):
+       Task "RemoveDuplicates"
+       Done executing task "RemoveDuplicates".
+       Task "MakeDir"
+       Done executing task "MakeDir".
+       Task "WriteLinesToFile"
+         Skipping write to file "obj\Debug\AdminForm.csproj.FileListAbsolute.txt" because content would not change.
+       Done executing task "WriteLinesToFile".
+   2:6>Done building target "_CleanRecordFileWrites" in project "AdminForm.csproj".
+   2:6>Done Building Project "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (default targets) -- FAILED.
+   1:2>Done executing task "MSBuild" -- FAILED.
+   1:2>Done building target "Build" in project "AdminForm.slnx" -- FAILED.
+   1:2>Done Building Project "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (default targets) -- FAILED.
+
+Build FAILED.
+
+       "C:\Users\Haqii\source\repos\AdminForm\AdminForm.slnx" (default target) (1:2) ->
+       "C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj" (default target) (2:6) ->
+       (CoreCompile target) -> 
+         C:\Users\Haqii\source\repos\AdminForm\AdminForm\DashboardForm.cs(24,10): error CS1513: } expected [C:\Users\Haqii\source\repos\AdminForm\AdminForm\AdminForm.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.46
